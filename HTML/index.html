@@ -8,12 +8,12 @@
     </head>
     <body>
         <div class="nav">
-            <div class="home-name">현용호</div>
+            <div class="home-name">heartRate Analysis</div>
             <div class="nav-right-items">
-            <div class="nav-item">메뉴1</div>
-            <div class="nav-item">메뉴2</div>
-            <div class="nav-item">메뉴3</div>
-            <div class="nav-item">메뉴4</div>
+            <div class="nav-item">Guide</div>
+            <div class="nav-item">Convert</div>
+            <div class="nav-item">Analysis</div>
+            <div class="nav-item">Support</div>
             </div>
         </div>
         <div class="main">
@@ -25,9 +25,16 @@
             
         </div>
         <div class="convert-box">
+            
             <div class="convert-item">
-                <button class="find-button">Find</button>
+                <input class="find-button" type="file" accept=".json" multiple>
+                <!-- webkitdirectory only applies for Chrome browser -->
+                <!-- <button class="find-button">Find</button> -->
             </div>
+            <div class="preview">
+                <p></p>
+            </div>
+            <script src='directory_upload.js'></script>
             <div class="convert-item">
                 <button class="find-button conv-button">Convert</button>
             </div>
